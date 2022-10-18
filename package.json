@@ -1,0 +1,26 @@
+{
+    "name": "blog",
+    "description": "",
+    "version": "1.0.0",
+    "engines": {
+        "ghost": ">=1.2.0"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "autoprefixer": "^10.4.12",
+        "cssnano": "^5.1.13",
+        "graceful-fs": "^4.2.10",
+        "gulp": "^4.0.2",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-postcss": "^9.0.1",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-util": "^3.0.8",
+        "minimatch": "^5.1.0",
+        "postcss-color-function": "^4.1.0",
+        "postcss-custom-properties": "^12.1.9",
+        "postcss-easy-import": "^4.0.0"
+    },
+    "config": {
+        "posts_per_page": 25
+    }
+}

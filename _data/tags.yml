@@ -1,0 +1,16 @@
+# speeches:
+#   name: speeches
+#   description: Some of the greatest words ever spoken.
+#   cover: assets/images/speeches.jpg
+nsis:
+  name: nsis
+  description: False
+  cover: False
+unity:
+  name: unity
+  description: False
+  cover: False
+dd-history:
+  name: dd-history
+  description: Dimensional Dungeon develop history
+  cover: False
