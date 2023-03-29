@@ -21,11 +21,11 @@ gulp.task('images', function() {
 
 gulp.task('css', function () {
     var processors = [
-        easyimport,
-        customProperties,
-        colorFunction(),
-        autoprefixer({browsers: ['last 2 versions']}),
-        cssnano()
+         easyimport,
+         customProperties,
+         colorFunction(),
+         autoprefixer({browsers: ['last 2 version']}),
+         cssnano()
     ];
 
     return gulp.src('assets/css/*.css')

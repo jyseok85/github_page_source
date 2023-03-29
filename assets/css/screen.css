@@ -27,7 +27,7 @@ production stylesheet in assets/built/screen.css
 /* 1. Global - Set up the things
 /* ---------------------------------------------------------- */
 @import "global.css";
-
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
 body {
     background: #f4f8fb;
 }
@@ -55,6 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    color: #000;
 }
 
 .site-main {
@@ -625,10 +626,17 @@ The first (most recent) post in the list is styled to be bigger than the others 
     margin: 0 auto;
     padding: 70px 100px 0;
     min-height: 230px;
-    font-family: Georgia, serif;
-    font-size: 2.2rem;
-    line-height: 1.6em;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 1.5rem;
+    line-height: normal;
     background: #fff;
+}
+
+.draggable {
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
 }
 
 @media (max-width: 1170px) {
@@ -816,7 +824,7 @@ Usage (In Ghost editor):
 
 .post-full-content pre {
     overflow-x: auto;
-    margin: 1.5em 0 3em;
+    margin: 0.5em 0 0.5em;
     padding: 20px;
     max-width: 100%;
     border: color(var(--darkgrey) l(-10%)) 1px solid;
@@ -894,7 +902,7 @@ Usage (In Ghost editor):
 
 .post-full-content h3 {
     margin: 0.5em 0 0.2em 0;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
@@ -905,8 +913,9 @@ Usage (In Ghost editor):
 
 .post-full-content h4 {
     margin: 0.5em 0 0.2em 0;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     font-weight: 700;
+    color : rgb(65, 65, 65);
 }
 @media (max-width: 500px) {
     .post-full-content h4 {
@@ -940,7 +949,7 @@ Usage (In Ghost editor):
 
 .post-full-content h6 {
     margin: 0.5em 0 0.2em 0;
-    font-size: 2.3rem;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
@@ -995,7 +1004,7 @@ Usage (In Ghost editor):
 .post-full-content table {
     display: inline-block;
     overflow-x: auto;
-    margin: 0.5em 0 2.5em;
+    margin: 0.5em 0 0.5em;
     max-width: 100%;
     width: auto;
     border-spacing: 0;
@@ -1008,7 +1017,7 @@ Usage (In Ghost editor):
 
 .post-full-content table {
     -webkit-overflow-scrolling: touch;
-    background: radial-gradient(ellipse at left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 0 center, radial-gradient(ellipse at right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 100% center;
+    /* background: radial-gradient(ellipse at left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 0 center, radial-gradient(ellipse at right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 100% center; */
     background-attachment: scroll, scroll;
     background-size: 10px 100%, 10px 100%;
     background-repeat: no-repeat;
@@ -1034,13 +1043,13 @@ Usage (In Ghost editor):
     letter-spacing: 0.2px;
     text-align: left;
     text-transform: uppercase;
-    background-color: color(var(--whitegrey) l(+4%));
+    /* background-color: color(var(--whitegrey) l(+4%)); */
 }
 
 .post-full-content table th,
 .post-full-content table td {
     padding: 6px 12px;
-    border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
+    border: lightgray 1px solid;
 }
 
 

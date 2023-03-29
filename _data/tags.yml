@@ -6,6 +6,14 @@ nsis:
   name: nsis
   description: False
   cover: False
+ml-agents:
+  name: ML-Agents
+  description: False
+  cover: False
+blazor:
+  name: blazor
+  description: False
+  cover: False
 unity:
   name: unity
   description: False

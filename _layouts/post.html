@@ -41,7 +41,7 @@ into the {body} of the default.hbs template -->
                 <h1 class="post-full-title">{{ page.title }}</h1>
             </header>
 
-            //! 포스트 메인 이미지
+            <!-- ! 포스트 메인 이미지 위치 -->
             <!-- {% if page.cover %} 
             <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
             </figure>
@@ -91,7 +91,7 @@ into the {body} of the default.hbs template -->
             <!-- If you use Disqus comments, just uncomment this block.
             The only thing you need to change is "test-apkdzgmqhj" - which
             should be replaced with your own Disqus site-id. -->
-            {% if site.disqus or page.disqus %}
+            <!-- {% if site.disqus or page.disqus %}
                 <section class="post-full-comments">
                     <div id="disqus_thread"></div>
                     <script>
@@ -108,7 +108,7 @@ into the {body} of the default.hbs template -->
                         })();
                     </script>
                 </section>
-            {% endif %}
+            {% endif %} -->
 
         </article>
 
