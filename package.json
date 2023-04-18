@@ -1,28 +1,41 @@
 {
-    "name": "blog",
-    "description": "",
-    "version": "1.0.0",
-    "engines": {
-        "ghost": ">=1.2.0"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "autoprefixer": "^10.4.12",
-        "cssnano": "^5.1.13",
-        "graceful-fs": "^4.2.10",
-        "gulp": "^4.0.2",
-        "gulp-sass": "^4.1.0",
-        "gulp-postcss": "^9.0.0",
-        "gulp-imagemin": "^5.0.3",
-        "gulp-sourcemaps": "^3.0.0",
-        "gulp-util": "^3.0.8",
-        "minimatch": "^5.1.0",
-        "postcss": "^8.4.18",
-        "postcss-color-function": "^4.1.0",
-        "postcss-custom-properties": "^12.1.9",
-        "postcss-easy-import": "^4.0.0"
-    },
-    "config": {
-        "posts_per_page": 25
-    }
+  "name": "blog_source",
+  "description": "[![Build Status](https://github.com/jekyllt/jasper2/actions/workflows/jekyll_build.yml/badge.svg)](https://github.com/jekyllt/jasper2/actions/workflows/jekyll_build.yml)\r [![Ruby](https://img.shields.io/badge/ruby-2.6.3-blue.svg?style=flat)](http://travis-ci.org/jekyllt/jasper2)\r [![Jekyll](https://img.shields.io/badge/jekyll-3.9.0-blue.svg?style=flat)](http://travis-ci.org/jekyllt/jasper2)",
+  "version": "1.0.0",
+  "engines": {
+    "ghost": ">=1.2.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "cssnano": "^5.1.13",
+    "graceful-fs": "^4.2.10",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "minimatch": "^5.1.0",
+    "postcss": "^8.4.18",
+    "postcss-color-function": "^4.1.0",
+    "postcss-custom-properties": "^12.1.9",
+    "postcss-easy-import": "^4.0.0"
+  },
+  "config": {
+    "posts_per_page": 25
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyseok85/github_page_source.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jyseok85/github_page_source/issues"
+  },
+  "homepage": "https://github.com/jyseok85/github_page_source#readme"
 }
