@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>지식을 잃어버리지 않게 기록하기 위한 블로그</description>
+    <link>
+    https://jyseok85.github.io</link>
+    
+      
+      <item>
+        <title>Opentelemetry Tempo Springboot</title>
+        
+          <description>&lt;h2 id=&quot;vscode를-활용한-springboot-환경에서-테스트-진행&quot;&gt;vscode를 활용한 springboot 환경에서 테스트 진행&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;1-vscode-확장-프로그램을-설치합니다&quot;&gt;1. vscode 확장 프로그램을 설치합니다.&lt;/h3&gt;
+
+</description>
+        
+        <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/openTelemetry-tempo-springboot</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/openTelemetry-tempo-springboot</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Tempo Test</title>
+        
+          <description>&lt;p&gt;처음에 만들었던 .Net 프로젝트를 실행합니다.(디버깅으로 실행해도 상관없습니다)
+&lt;img src=&quot;Images/K-001.png&quot; alt=&quot;Alt text&quot; /&gt;
+기존처럼 동일하게 WeatherForecast 를 실행합니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/tempo-test</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/tempo-test</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Opentelemetry Tempo Net</title>
+        
+          <description>&lt;p&gt;개발환경 vs2022 .Net7 Win11&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/openTelemetry-tempo-net</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/openTelemetry-tempo-net</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>1. 템포, 그라파나, 프로메테우스 설치하기</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-fo-contents-list&quot;&gt;
+    &lt;b&gt;목차&lt;/b&gt;
+    &lt;!-- href 링크는 날짜를 제외한 파일명과 매칭됨 --&gt;
+    &lt;!-- ex) 파일명이 2023-04-13-grafana.md -&gt; &lt;a href=&quot;./grafana&quot;&gt;  --&gt;
+    &lt;li&gt;&lt;a href=&quot;./tempo-grafana-promethues&quot;&gt; 1. 템포, 그라파나, 프로메테우스 설치하기&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./openTelemetry-tempo-net&quot;&gt; 2. DotNet에서 OpenTelemetry를 이용한 템포 전송 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./tempo-test&quot;&gt; 3. Tempo 전송 테스트&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./openTelemetry-tempo-springboot&quot;&gt; 4. Java(springboot) 환경에서 Tempo 전송&lt;/a&gt;&lt;/li&gt;
+    &lt;hr style=&quot;border: solid 1px rgb(134, 134, 134);&quot; /&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 14 Apr 2023 09:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/tempo-grafana-promethues</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/tempo-grafana-promethues</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>.Net5 -&gt; .Net7 Migration</title>
+        
+          <description>&lt;p&gt;특별히 변경된 사항은 거의 없습니다. 
+App.razor의 초반 선언이 조금 바뀌고, 단순 Loading 텍스트대신 프로그래스바가 추가되었습니다. 
+.Net5에서 프로젝트 속성에서 단순히 .Net7으로 변경하기만 하면 동작됩니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 17 Nov 2022 11:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/Net7Migration</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/Net7Migration</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>아무도 안알려주는 팁!</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-fo-contents-list&quot;&gt;
+    &lt;b&gt;목차&lt;/b&gt;
+    &lt;li&gt;&lt;a href=&quot;./Configuration&quot;&gt; 1. ML-Agents 환경구성(Windows)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./PlayTutorial&quot;&gt; 2. Play Tutorial&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./What!&quot;&gt; 3. What should i do?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./Conculation&quot;&gt; 4.시작부터 결론??&lt;/a&gt;&lt;/li&gt;
+    &lt;hr style=&quot;border: solid 1px rgb(134, 134, 134);&quot; /&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Thu, 03 Nov 2022 09:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/Tip</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/Tip</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Report WebViewer</title>
+        
+          <description>&lt;p&gt;ERP가 웹으로 전환함에 있어서 ReportViewer또한 웹으로 표시해야 할 필요성이 생겼습니다.
+(물론 꽤 오래전부터 이슈가 되었지만, 기술의 한계로 인하여 중단되었습니다.)&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 03 Nov 2022 09:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/WebViewer</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/WebViewer</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>4. 시작부터 결론?</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-fo-contents-list&quot;&gt;
+    &lt;b&gt;목차&lt;/b&gt;
+    &lt;li&gt;&lt;a href=&quot;./Configuration&quot;&gt; 1. ML-Agents 환경구성(Windows)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./PlayTutorial&quot;&gt; 2. Play Tutorial&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./What!&quot;&gt; 3. What should i do?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./Conculation&quot;&gt; 4.시작부터 결론??&lt;/a&gt;&lt;/li&gt;
+    &lt;hr style=&quot;border: solid 1px rgb(134, 134, 134);&quot; /&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 24 Oct 2022 09:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/Conculation</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/Conculation</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>3. What should I do?</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-fo-contents-list&quot;&gt;
+    &lt;b&gt;목차&lt;/b&gt;
+    &lt;li&gt;&lt;a href=&quot;./Configuration&quot;&gt; 1. ML-Agents 환경구성(Windows)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./PlayTutorial&quot;&gt; 2. Play Tutorial&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./What!&quot;&gt; 3. What should i do?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./Conculation&quot;&gt; 4.시작부터 결론??&lt;/a&gt;&lt;/li&gt;
+    &lt;hr style=&quot;border: solid 1px rgb(134, 134, 134);&quot; /&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 24 Oct 2022 09:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/What!</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/What!</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2. Play Tutorial</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-fo-contents-list&quot;&gt;
+    &lt;b&gt;목차&lt;/b&gt;
+    &lt;li&gt;&lt;a href=&quot;./Configuration&quot;&gt; 1. ML-Agents 환경구성(Windows)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./PlayTutorial&quot;&gt; 2. Play Tutorial&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./What!&quot;&gt; 3. What should i do?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./Conculation&quot;&gt; 4.시작부터 결론??&lt;/a&gt;&lt;/li&gt;
+    &lt;hr style=&quot;border: solid 1px rgb(134, 134, 134);&quot; /&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 24 Oct 2022 09:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/PlayTutorial</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/PlayTutorial</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>1. ML-Agents 환경구성(Windows)</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-fo-contents-list&quot;&gt;
+    &lt;b&gt;목차&lt;/b&gt;
+    &lt;li&gt;&lt;a href=&quot;./Configuration&quot;&gt; 1. ML-Agents 환경구성(Windows)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./PlayTutorial&quot;&gt; 2. Play Tutorial&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./What!&quot;&gt; 3. What should i do?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./Conculation&quot;&gt; 4.시작부터 결론??&lt;/a&gt;&lt;/li&gt;
+    &lt;hr style=&quot;border: solid 1px rgb(134, 134, 134);&quot; /&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 21 Oct 2022 09:00:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/Configuration</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/Configuration</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>basic</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-fo-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./nsis&quot;&gt; - basic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 18 Oct 2022 00:18:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/nsis</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/nsis</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gettysburg Address</title>
+        
+          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 19 Nov 1863 10:18:00 +0000</pubDate>
+        <link>
+        https://jyseok85.github.io/gettysburg-address</link>
+        <guid isPermaLink="true">https://jyseok85.github.io/gettysburg-address</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
